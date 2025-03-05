@@ -1,0 +1,88 @@
+---- qbsp / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\quake-leveldesign-starterkit-20241231-windows\working\quake\SecondTry-compile.map
+Output file: C:\quake-leveldesign-starterkit-20241231-windows\working\quake\SecondTry.bsp
+
+INFO: using built-in palette.
+WARNING: SecondTry-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: SecondTry-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: SecondTry-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: SecondTry-compile.map[line 4]: Unrecognised string escape - \Q
+     8 entities
+     6 unique textures
+    65 texinfos
+    72 unique planes
+
+INFO: world extents calculated to 1864 units
+    11 brushes
+    66 sides
+    14 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+WARNING: unable to find texture 128_blue_2
+Processing hull 0...
+    11 SOLID brushes
+    11 brushes total
+    66 visible sides
+INFO: calculating BSP for 11 brushes with 66 sides
+    11 brushes
+    66 visible faces
+    77 nodes
+    76 expensive split nodes
+     1 mid-split nodes
+    78 leaves
+    39 EMPTY leafs
+    39 SOLID leafs
+    78 leafs total
+    16 max tree height
+    10 avg tree height
+    352 tree portals
+WARNING: Reached occupant "info_player_start" at (-16 -16 40), no filling performed.
+Leak file written to SecondTry.pts
+            3 portals written to SecondTry.leak.prt
+    352 tree portals
+    129 sides visible
+    129 makefaces
+     22 merged
+     53 subdivided
+    11 nodes pruned
+    39 EMPTY leafs
+    28 SOLID leafs
+    67 leafs total
+    16 max tree height
+     9 avg tree height
+    132 edges added by tjunctions
+    154 faces optimized through MWT
+    436 triangles computed from MWT
+     28 faces created via optimization of MWT triangles
+    415 edges
+    188 faces
+Processing hull 1...
+Processing hull 2...
+Writing SecondTry.bsp as Quake BSP bsp29
+Wrote SecondTry.bsp
+
+count   lump name    byte size 
+      1 models               64
+     61 planes             1220
+    210 vertexes           2520
+     66 nodes              1584
+     51 texinfos           2040
+    188 faces              3760
+     51 clipnodes           408
+     40 leafs              1120
+    193 marksurfaces        386
+    416 edges              1664
+    818 surfedges          3272
+      6 textures          27388
+        lightdata             0
+        visdata               0
+        entdata             500
+
+0.035s seconds elapsed
+
+
