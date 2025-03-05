@@ -1,0 +1,109 @@
+---- qbsp / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\Users\Patnode\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\CultClassicCastle_Blockout-compile.map
+Output file: C:\Users\Patnode\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\CultClassicCastle_Blockout.bsp
+
+INFO: using built-in palette.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: CultClassicCastle_Blockout-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: CultClassicCastle_Blockout-compile.map[line 6]: Unrecognised string escape - \p
+fs::addArchive: WARNING: archive '..\..\..\..\..\..\..\..\quake-leveldesign-starterkit-20241231-windows\extras\quake\prototype-wad\prototype_basic_1_3.wad' not found
+       10 entities
+        3 unique textures
+      777 texinfos
+    1,074 unique planes
+
+INFO: world extents calculated to 2328 units
+      678 brushes
+    3,920 sides
+    1,581 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+Processing hull 0...
+    678 SOLID brushes
+    678 brushes total
+    3,920 visible sides
+INFO: calculating BSP for 678 brushes with 3920 sides
+      678 brushes
+    3,920 visible faces
+    2,941 nodes
+    2,872 expensive split nodes
+       69 mid-split nodes
+    2,942 leaves
+    1,166 EMPTY leafs
+    1,776 SOLID leafs
+    2,942 leafs total
+    30 max tree height
+    15 avg tree height
+    661 tiny portals
+    12,145 tree portals
+WARNING: Reached occupant "info_player_deathmatch" at (-480 -296 108), no filling performed.
+Leak file written to CultClassicCastle_Blockout.pts
+            3 portals written to CultClassicCastle_Blockout.leak.prt
+    661 tiny portals
+    12,145 tree portals
+WARNING: 1 sides not found (use -verbose to display)
+    3,814 sides visible
+    3,814 makefaces
+      912 merged
+      226 subdivided
+    620 nodes pruned
+    1,166 EMPTY leafs
+    1,156 SOLID leafs
+    2,322 leafs total
+    29 max tree height
+    15 avg tree height
+        3 edges degenerated
+    2,168 edges added by tjunctions
+    2,970 faces optimized through MWT
+    8,138 triangles computed from MWT
+      442 faces created via optimization of MWT triangles
+    7,917 edges
+    3,570 faces
+Processing hull 1...
+WARNING: Reached occupant "info_player_deathmatch" at (-480 -296 108), no filling performed.
+Processing hull 2...
+WARNING: Reached occupant "info_player_deathmatch" at (-480 -296 108), no filling performed.
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 177 >= 127)
+Writing CultClassicCastle_Blockout.bsp as Quake BSP bsp29
+Wrote CultClassicCastle_Blockout.bsp
+
+count   lump name    byte size 
+      1 models               64
+   1910 planes            38200
+   4065 vertexes          48780
+   2321 nodes             55704
+    537 texinfos          21480
+   3570 faces             71400
+  61217 clipnodes        489736
+   1167 leafs             32676
+   4022 marksurfaces       8044
+   7918 edges             31672
+  15436 surfedges         61744
+      3 textures          43616
+        lightdata             0
+        visdata               0
+        entdata             810
+
+1.537s seconds elapsed
+
+

@@ -1,0 +1,13 @@
+---- vis / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+LoadBSPFile: 'CultClassicCastle_Blockout.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+************ ERROR ************
+LoadPrtFile: unknown header/empty portal file CultClassicCastle_Blockout.prt
+
+
+
