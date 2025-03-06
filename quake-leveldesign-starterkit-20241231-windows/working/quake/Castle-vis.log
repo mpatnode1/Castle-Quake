@@ -14,9 +14,9 @@ Calculating Full Vis:
 Expanding clusters...
 average leafs visible: 184
 c_noclip: 0
-c_chains: 4152247
-visdatasize:21316  compressed from 25878
+c_chains: 4110770
+visdatasize:21311  compressed from 25878
 Writing Castle.bsp as Quake BSP bsp29
-1.90s elapsed
+1.55s elapsed
 
 
