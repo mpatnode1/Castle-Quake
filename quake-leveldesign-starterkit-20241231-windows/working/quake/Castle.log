@@ -3,8 +3,8 @@
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-Input file: C:\Users\Patnode\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\Castle-compile.map
-Output file: C:\Users\Patnode\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\Castle.bsp
+Input file: C:\Users\mpatn\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\Castle-compile.map
+Output file: C:\Users\mpatn\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\Castle.bsp
 
 INFO: using built-in palette.
 WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \.
@@ -24,102 +24,108 @@ WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \e
 WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \q
 WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \p
 WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: Castle-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: Castle-compile.map[line 6]: Unrecognised string escape - \p
 WARNING: Castle-compile.map[line 6]: Unrecognised string escape - \p
 fs::addArchive: WARNING: archive '..\..\..\..\..\..\..\..\quake-leveldesign-starterkit-20241231-windows\extras\quake\prototype-wad\prototype_basic_1_3.wad' not found
-       10 entities
+       18 entities
         3 unique textures
-      813 texinfos
-    1,142 unique planes
+      943 texinfos
+    1,398 unique planes
 
 INFO: world extents calculated to 2328 units
-      683 brushes
-    3,949 sides
-    1,591 side bevels
+      535 brushes
+    3,071 sides
+    1,594 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 Processing hull 0...
-    683 SOLID brushes
-    683 brushes total
-    3,949 visible sides
-INFO: calculating BSP for 683 brushes with 3949 sides
-      683 brushes
-    3,949 visible faces
-    2,293 nodes
-    2,290 expensive split nodes
-        3 mid-split nodes
-    2,294 leaves
-      779 EMPTY leafs
-    1,515 SOLID leafs
-    2,294 leafs total
-    38 max tree height
-    21 avg tree height
-    513 tiny portals
-    10,032 tree portals
-    249 outside leaves
+    535 SOLID brushes
+    535 brushes total
+    3,071 visible sides
+INFO: calculating BSP for 535 brushes with 3071 sides
+      535 brushes
+    3,071 visible faces
+    3,279 nodes
+    3,268 expensive split nodes
+       11 mid-split nodes
+    3,280 leaves
+    1,012 EMPTY leafs
+    2,268 SOLID leafs
+    3,280 leafs total
+    51 max tree height
+    27 avg tree height
+    503 tiny portals
+    14,180 tree portals
+    364 outside leaves
     0 detail filled leafs
-      683 brushes
-    2,197 visible faces
-    1,752 non-visible faces
-    2,469 nodes
-    1,113 non-visible nodes
-    2,469 expensive split nodes
-    2,470 leaves
-      873 EMPTY leafs
-    1,597 SOLID leafs
-    2,470 leafs total
-    37 max tree height
+      535 brushes
+    1,748 visible faces
+    1,323 non-visible faces
+    3,274 nodes
+    1,513 non-visible nodes
+    3,274 expensive split nodes
+    3,275 leaves
+    1,031 EMPTY leafs
+    2,244 SOLID leafs
+    3,275 leafs total
+    35 max tree height
     16 avg tree height
-    565 tiny portals
-    10,862 tree portals
-    419 outside leaves
+    517 tiny portals
+    14,006 tree portals
+    510 outside leaves
     0 detail filled leafs
-    565 tiny portals
-    10,862 tree portals
-    2,574 sides visible
-    2,574 makefaces
-      838 merged
-       96 subdivided
-    1,403 nodes pruned
-    62 tiny portals
-      454 player-occupiable leaves
-      454 clusters of leaves
-    1,480 vis portals
-      613 SOLID leafs
-      454 EMPTY leafs
-    1,067 leafs total
-    34 max tree height
+    517 tiny portals
+    14,006 tree portals
+    2,957 sides visible
+    2,957 makefaces
+      980 merged
+      121 subdivided
+    1,995 nodes pruned
+    69 tiny portals
+      521 player-occupiable leaves
+      521 clusters of leaves
+    1,567 vis portals
+      759 SOLID leafs
+      521 EMPTY leafs
+    1,280 leafs total
+    32 max tree height
     15 avg tree height
-        2 edges degenerated
-    1,644 edges added by tjunctions
-    1,688 faces optimized through MWT
-    5,014 triangles computed from MWT
-      338 faces created via optimization of MWT triangles
-    4,810 edges
-    2,170 faces
+        3 edges degenerated
+    1,940 edges added by tjunctions
+    1,959 faces optimized through MWT
+    5,824 triangles computed from MWT
+      424 faces created via optimization of MWT triangles
+    5,578 edges
+    2,522 faces
 Processing hull 1...
 Processing hull 2...
-WARNING: worldspawn at 0 0 0 has long value for key wad (length 177 >= 127)
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 234 >= 127)
 Writing Castle.bsp as Quake BSP bsp29
 Wrote Castle.bsp
 
 count   lump name    byte size 
       1 models               64
-    807 planes            16140
-   2533 vertexes          30396
-   1066 nodes             25584
-    481 texinfos          19240
-   2170 faces             43400
-   2641 clipnodes         21128
-    455 leafs             12740
-   2576 marksurfaces       5152
-   4811 edges             19244
-   9498 surfedges         37992
+   1004 planes            20080
+   2900 vertexes          34800
+   1279 nodes             30696
+    572 texinfos          22880
+   2522 faces             50440
+   3062 clipnodes         24496
+    522 leafs             14616
+   3048 marksurfaces       6096
+   5579 edges             22316
+  11007 surfedges         44028
       3 textures          43616
         lightdata             0
         visdata               0
-        entdata             810
+        entdata            1368
 
-1.857s seconds elapsed
+6.891s seconds elapsed
 
 
