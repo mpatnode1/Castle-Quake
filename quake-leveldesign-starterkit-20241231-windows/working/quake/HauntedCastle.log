@@ -1,0 +1,85 @@
+---- qbsp / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\Users\mpatn\Documents\GitHub\Busters\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\HauntedCastle-compile.map
+Output file: C:\Users\mpatn\Documents\GitHub\Busters\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\HauntedCastle.bsp
+
+INFO: using built-in palette.
+WARNING: No wad or _wad key exists in the worldmodel
+     2 entities
+     2 unique textures
+     9 texinfos
+    20 unique planes
+
+INFO: world extents calculated to 2216 units
+     5 brushes
+    30 sides
+
+            0 texture frames added
+WARNING: unable to find texture skip
+WARNING: unable to find texture __TB_empty
+Processing hull 0...
+    5 SOLID brushes
+    5 brushes total
+    30 visible sides
+INFO: calculating BSP for 5 brushes with 30 sides
+     5 brushes
+    30 visible faces
+    16 nodes
+    13 expensive split nodes
+     3 mid-split nodes
+    17 leaves
+    12 EMPTY leafs
+     5 SOLID leafs
+    17 leafs total
+    8 max tree height
+    6 avg tree height
+    80 tree portals
+WARNING: Reached occupant "info_player_start" at (112 -240 24), no filling performed.
+Leak file written to HauntedCastle.pts
+            2 portals written to HauntedCastle.leak.prt
+    80 tree portals
+    20 sides visible
+    20 makefaces
+     4 merged
+    52 subdivided
+    12 EMPTY leafs
+     5 SOLID leafs
+    17 leafs total
+    8 max tree height
+    6 avg tree height
+     32 edges added by tjunctions
+     68 faces optimized through MWT
+    168 triangles computed from MWT
+      5 faces created via optimization of MWT triangles
+    157 edges
+     73 faces
+Processing hull 1...
+WARNING: Reached occupant "info_player_start" at (112 -240 24), no filling performed.
+Processing hull 2...
+WARNING: Reached occupant "info_player_start" at (112 -240 24), no filling performed.
+Writing HauntedCastle.bsp as Quake BSP bsp29
+Wrote HauntedCastle.bsp
+
+count   lump name    byte size 
+      1 models               64
+     33 planes              660
+     86 vertexes           1032
+     16 nodes               384
+      8 texinfos            320
+     73 faces              1460
+     73 clipnodes           584
+     13 leafs               364
+     73 marksurfaces        146
+    158 edges               632
+    314 surfedges          1256
+      2 textures             12
+        lightdata             0
+        visdata               0
+        entdata             117
+
+0.005s seconds elapsed
+
+
