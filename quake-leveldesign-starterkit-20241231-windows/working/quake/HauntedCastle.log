@@ -52,86 +52,86 @@ fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE2.wad' not found
 fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE3.wad' not found
 fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE4.wad' not found
 WARNING: HauntedCastle-compile.map[line 1430]: brush has multiple face contents (SOLID vs WATER), the former will be used.
-       37 entities
+       71 entities
        38 unique textures
-    2,270 texinfos
-    2,500 unique planes
+    2,279 texinfos
+    2,510 unique planes
 
 INFO: world extents calculated to 4104 units
-    1,065 brushes
-    6,330 sides
+    1,069 brushes
+    6,354 sides
     1,814 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    1,021 SOLID brushes
+    1,025 SOLID brushes
        39 WATER | DETAIL brushes
         5 SKY brushes
-    1,065 brushes total
-    6,330 visible sides
-INFO: calculating BSP for 1065 brushes with 6330 sides
-    1,065 brushes
-    6,330 visible faces
-    8,914 nodes
-    7,950 expensive split nodes
+    1,069 brushes total
+    6,354 visible sides
+INFO: calculating BSP for 1069 brushes with 6354 sides
+    1,069 brushes
+    6,354 visible faces
+    8,934 nodes
+    7,970 expensive split nodes
       964 mid-split nodes
-    8,915 leaves
-    3,674 EMPTY leafs
+    8,935 leaves
+    3,688 EMPTY leafs
       557 SKY leafs
-    4,508 SOLID leafs
+    4,514 SOLID leafs
       176 WATER | DETAIL leafs
-    8,915 leafs total
+    8,935 leafs total
     43 max tree height
     17 avg tree height
     659 tiny portals
-    36,318 tree portals
+    36,453 tree portals
     958 outside leaves
     0 detail filled leafs
-    1,065 brushes
-    3,484 visible faces
-    2,846 non-visible faces
-    4,391 nodes
+    1,069 brushes
+    3,502 visible faces
+    2,852 non-visible faces
+    4,408 nodes
     1,136 non-visible nodes
-    4,391 expensive split nodes
-    4,392 leaves
-    1,503 EMPTY leafs
+    4,408 expensive split nodes
+    4,409 leaves
+    1,513 EMPTY leafs
       136 SKY leafs
-    2,651 SOLID leafs
+    2,658 SOLID leafs
       102 WATER | DETAIL leafs
-    4,392 leafs total
+    4,409 leafs total
     36 max tree height
     17 avg tree height
     511 tiny portals
-    19,917 tree portals
+    20,012 tree portals
     201 outside leaves
     0 detail filled leafs
     511 tiny portals
-    19,917 tree portals
-    7,585 sides visible
-    7,395 makefaces
-    2,110 merged
-    3,128 subdivided
+    20,012 tree portals
+    7,635 sides visible
+    7,445 makefaces
+    2,127 merged
+    3,068 subdivided
     1,307 nodes pruned
     126 tiny portals
-    1,540 player-occupiable leaves
-    1,436 clusters of leaves
-    4,383 vis portals
-    1,545 SOLID leafs
+    1,550 player-occupiable leaves
+    1,446 clusters of leaves
+    4,408 vis portals
+    1,552 SOLID leafs
       136 SKY leafs
-    1,302 EMPTY leafs
+    1,312 EMPTY leafs
       102 WATER | DETAIL leafs
-    3,085 leafs total
+    3,102 leafs total
     35 max tree height
     16 avg tree height
          4 edges degenerated
-     8,006 edges added by tjunctions
-     7,930 faces optimized through MWT
-    24,209 triangles computed from MWT
-     2,220 faces created via optimization of MWT triangles
-    23,288 edges
-    10,633 faces
+     7,936 edges added by tjunctions
+     7,904 faces optimized through MWT
+    24,088 triangles computed from MWT
+     2,205 faces created via optimization of MWT triangles
+    23,184 edges
+    10,591 faces
 Processing hull 1...
 Processing hull 2...
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 1107 >= 127)
@@ -140,21 +140,21 @@ Wrote HauntedCastle.bsp
 
 count   lump name    byte size 
       1 models               64
-   2481 planes            49620
-  11978 vertexes         143736
-   3084 nodes             74016
-   1169 texinfos          46760
-  10633 faces            212660
-   8369 clipnodes         66952
-   1541 leafs             43148
-  12055 marksurfaces      24110
-  23289 edges             93156
-  45959 surfedges        183836
+   2485 planes            49700
+  11916 vertexes         142992
+   3101 nodes             74424
+   1158 texinfos          46320
+  10591 faces            211820
+   8435 clipnodes         67480
+   1551 leafs             43428
+  12038 marksurfaces      24076
+  23185 edges             92740
+  45753 surfedges        183012
      38 textures         749596
         lightdata             0
         visdata               0
-        entdata            1223
+        entdata            3475
 
-10.843s seconds elapsed
+10.857s seconds elapsed
 
 

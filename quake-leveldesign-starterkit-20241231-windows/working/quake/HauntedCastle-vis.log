@@ -6,17 +6,17 @@
 LoadBSPFile: 'HauntedCastle.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
-  1540 leafs
-  1436 clusters
-  4383 portals
+  1550 leafs
+  1446 clusters
+  4408 portals
 Calculating Base Vis:
 Calculating Full Vis:
 Expanding clusters...
-average leafs visible: 343
+average leafs visible: 342
 c_noclip: 0
-c_chains: 109448161
-visdatasize:171233  compressed from 297220
+c_chains: 109989746
+visdatasize:172277  compressed from 300700
 Writing HauntedCastle.bsp as Quake BSP bsp29
-79.65s elapsed
+81.89s elapsed
 
 
