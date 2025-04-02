@@ -7,83 +7,154 @@ Input file: C:\Users\mpatn\Documents\GitHub\Castle-Quake\quake-leveldesign-start
 Output file: C:\Users\mpatn\Documents\GitHub\Castle-Quake\quake-leveldesign-starterkit-20241231-windows\working\quake\HauntedCastle.bsp
 
 INFO: using built-in palette.
-WARNING: No wad or _wad key exists in the worldmodel
-     11 entities
-      2 unique textures
-    273 texinfos
-    352 unique planes
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \c
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \H
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \d
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \d
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \d
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \w
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \d
+WARNING: HauntedCastle-compile.map[line 4]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 6]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 6]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 6]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 6]: Unrecognised string escape - \D
+WARNING: HauntedCastle-compile.map[line 6]: Unrecognised string escape - \H
+WARNING: HauntedCastle-compile.map[line 6]: Unrecognised string escape - \c
+fs::addArchive: WARNING: archive '..\extras\quake\wads\chicosruin_Q1.wad' not found
+fs::addArchive: WARNING: archive '..\extras\quake\wads\Heretictex.wad' not found
+fs::addArchive: WARNING: archive '..\extras\quake\wads\tiles.wad' not found
+fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE1.wad' not found
+fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE2.wad' not found
+fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE3.wad' not found
+fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE4.wad' not found
+WARNING: HauntedCastle-compile.map[line 1430]: brush has multiple face contents (SOLID vs WATER), the former will be used.
+       37 entities
+       29 unique textures
+    2,017 texinfos
+    2,504 unique planes
 
-INFO: world extents calculated to 3629 units
-    109 brushes
-    688 sides
-    418 side bevels
+INFO: world extents calculated to 4104 units
+    1,062 brushes
+    6,314 sides
+    1,814 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    109 SOLID brushes
-    109 brushes total
-    688 visible sides
-INFO: calculating BSP for 109 brushes with 688 sides
-    109 brushes
-    688 visible faces
-    5,912 nodes
-       22 expensive split nodes
-    5,890 mid-split nodes
-    5,913 leaves
-    1,786 EMPTY leafs
-    4,127 SOLID leafs
-    5,913 leafs total
-    48 max tree height
-    22 avg tree height
-    206 tiny portals
-    19,392 tree portals
-WARNING: Reached occupant "info_player_start" at (112 -240 26), no filling performed.
-Leak file written to HauntedCastle.pts
-            2 portals written to HauntedCastle.leak.prt
-    206 tiny portals
-    19,392 tree portals
-    3,222 sides visible
-    3,222 makefaces
-      619 merged
-       66 subdivided
-    1,853 nodes pruned
-    1,786 EMPTY leafs
-    2,274 SOLID leafs
-    4,060 leafs total
-    45 max tree height
-    21 avg tree height
-      516 edges added by tjunctions
-    2,637 faces optimized through MWT
-    5,883 triangles computed from MWT
-      157 faces created via optimization of MWT triangles
-    5,818 edges
-    2,826 faces
+    1,018 SOLID brushes
+       39 WATER | DETAIL brushes
+        5 SKY brushes
+    1,062 brushes total
+    6,314 visible sides
+INFO: calculating BSP for 1062 brushes with 6314 sides
+    1,062 brushes
+    6,314 visible faces
+    8,763 nodes
+    7,837 expensive split nodes
+      926 mid-split nodes
+    8,764 leaves
+    3,614 EMPTY leafs
+      539 SKY leafs
+    4,435 SOLID leafs
+      176 WATER | DETAIL leafs
+    8,764 leafs total
+    43 max tree height
+    17 avg tree height
+    661 tiny portals
+    35,774 tree portals
+    924 outside leaves
+    0 detail filled leafs
+    1,062 brushes
+    3,479 visible faces
+    2,835 non-visible faces
+    4,390 nodes
+    1,139 non-visible nodes
+    4,390 expensive split nodes
+    4,391 leaves
+    1,501 EMPTY leafs
+      134 SKY leafs
+    2,654 SOLID leafs
+      102 WATER | DETAIL leafs
+    4,391 leafs total
+    36 max tree height
+    17 avg tree height
+    526 tiny portals
+    19,884 tree portals
+    199 outside leaves
+    0 detail filled leafs
+    526 tiny portals
+    19,884 tree portals
+    7,564 sides visible
+    7,374 makefaces
+    2,064 merged
+    2,549 subdivided
+    1,312 nodes pruned
+    125 tiny portals
+    1,538 player-occupiable leaves
+    1,434 clusters of leaves
+    4,381 vis portals
+    1,541 SOLID leafs
+      134 SKY leafs
+    1,302 EMPTY leafs
+      102 WATER | DETAIL leafs
+    3,079 leafs total
+    35 max tree height
+    16 avg tree height
+         4 edges degenerated
+     7,282 edges added by tjunctions
+     7,354 faces optimized through MWT
+    22,343 triangles computed from MWT
+     1,979 faces created via optimization of MWT triangles
+    21,570 edges
+     9,838 faces
 Processing hull 1...
-WARNING: Reached occupant "info_player_start" at (112 -240 26), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "info_player_start" at (112 -240 26), no filling performed.
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 1107 >= 127)
 Writing HauntedCastle.bsp as Quake BSP bsp29
 Wrote HauntedCastle.bsp
 
 count   lump name    byte size 
       1 models               64
-   1426 planes            28520
-   2962 vertexes          35544
-   4059 nodes             97416
-    159 texinfos           6360
-   2826 faces             56520
-  41588 clipnodes        332704
-   1787 leafs             50036
-   3166 marksurfaces       6332
-   5819 edges             23276
-  11567 surfedges         46268
-      2 textures             12
+   2482 planes            49640
+  11058 vertexes         132696
+   3078 nodes             73872
+   1130 texinfos          45200
+   9838 faces            196760
+   8465 clipnodes         67720
+   1539 leafs             43092
+  11194 marksurfaces      22388
+  21571 edges             86284
+  42525 surfedges        170100
+     29 textures         722000
         lightdata             0
         visdata               0
-        entdata             117
+        entdata            1223
 
-1.123s seconds elapsed
+6.432s seconds elapsed
 
 

@@ -1,0 +1,63 @@
+---- light / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+LoadBSPFile: 'HauntedCastle.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+img::ConvertTextures: WARNING: invalid size data for 
+img::ConvertTextures: WARNING: Texture  duplicated
+Loading extended texinfo flags from HauntedCastle.texinfo.json...
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \c
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \H
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \d
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \d
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \d
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \e
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \d
+WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
+2 entities read, 0 are lights.
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Embree_TraceInit: Embree version: 3.12.1
+Embree_TraceInit: 
+	181 sky faces
+	9478 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
+Final count: 0 lights, 0 suns in use.
+0 surface light points in use.
+lightmap size (total): 0
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing HauntedCastle.bsp as Quake BSP bsp29
+0.508s seconds elapsed
+0 empty lightmaps
+
+

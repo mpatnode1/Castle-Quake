@@ -1,0 +1,22 @@
+---- vis / ericw-tools 2.0.0-alpha8-64-gbbe39c7c ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+LoadBSPFile: 'HauntedCastle.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+  1538 leafs
+  1434 clusters
+  4381 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 344
+c_noclip: 0
+c_chains: 109504985
+visdatasize:171839  compressed from 296834
+Writing HauntedCastle.bsp as Quake BSP bsp29
+76.45s elapsed
+
+

@@ -18,7 +18,7 @@ HauntedCastle_________kills:__0/__0____
 0.000000
 1
 HauntedCastle
-30.240354
+32.340915
 m
 mmnmmommommnonmmonqnmmo
 abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba
@@ -87,7 +87,7 @@ a
 "self" "1"
 "other" "0"
 "world" "0"
-"time" "30.224358"
+"time" "32.324921"
 "frametime" "0.015996"
 "force_retouch" "0.000000"
 "mapname" "HauntedCastle"
@@ -115,14 +115,14 @@ a
 "parm14" "0.000000"
 "parm15" "0.000000"
 "parm16" "0.000000"
-"v_forward_x" "-0.336146"
-"v_forward_y" "0.789598"
-"v_forward_z" "-0.513362"
-"v_up_x" "-0.201084"
-"v_up_y" "0.472341"
-"v_up_z" "0.858172"
-"v_right_x" "0.920093"
-"v_right_y" "0.391700"
+"v_forward_x" "-0.597859"
+"v_forward_y" "0.796820"
+"v_forward_z" "0.087421"
+"v_up_x" "0.052466"
+"v_up_y" "-0.069927"
+"v_up_z" "0.996171"
+"v_right_x" "0.799883"
+"v_right_y" "0.600156"
 "v_right_z" "-0.000000"
 "trace_allsolid" "0.000000"
 "trace_startsolid" "0.000000"
@@ -160,7 +160,7 @@ a
 "newmis" "0"
 "activator" "0"
 "damage_attacker" "0"
-"framecount" "1814.000000"
+"framecount" "1943.000000"
 "skill" "1.000000"
 "enemy_vis" "0.000000"
 "enemy_infront" "0.000000"
@@ -194,25 +194,26 @@ a
 "solid" "4.000000"
 "classname" "worldspawn"
 "model" "maps/HauntedCastle.bsp"
-"wad" ""
+"wad" "..\xtras\uake\ads\hicosruin_Q1.wad;..\xtras\uake\ads\eretictex.wad;..\xtras\uake\ads\iles.wad;..\xtras\uake\ads\kt\ktE1.wad;..\xtras\uake\ads\kt\ktE2.wad;..\xtras\uake\ads\kt\ktE3.wad;..\xtras\uake\ads\kt\ktE4.wad;C:/Users/mpatn/Documents/GitHub/Castle-Quake/quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/tiles.wad;C:/Users/mpatn/Documents/GitHub/Castle-Quake/quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/Heretictex.wad;C:/Users/mpatn/Documents/GitHub/Castle-Quake/quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/chicosruin_Q1.wad;C:/Users/mpatn/Documents/GitHub/Castle-Quake/quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/dkt/DktE1.wad;C:/Users/mpatn/Documents/GitHub/Castle-Quake/quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/dkt/DktE2.wad;C:/Users/mpatn/Documents/GitHub/Castle-Quake/quake-leveldesign-starterkit-20241231-windows/extras/quake/wads/dkt/DktE3.wad;C:/Users/mpatn/Documents/GitHub/Castle"
 }
 { // #1
 "modelindex" "2.000000"
-"absmin" "908.865112 340.192749 15.031250"
-"absmax" "942.865112 374.192749 73.031250"
+"absmin" "1291.884888 -5.154423 7.031250"
+"absmax" "1325.884888 28.845577 65.031250"
 "movetype" "3.000000"
 "solid" "3.000000"
-"origin" "925.865112 357.192749 40.031250"
-"oldorigin" "925.820862 357.125702 40.031250"
-"angles" "-10.296021 113.060303 0.408528"
+"origin" "1308.884888 11.845577 32.031250"
+"oldorigin" "1309.171143 11.460394 32.652859"
+"velocity" "-17.893444 24.079948 0.000000"
+"angles" "1.671753 126.881104 0.004442"
 "classname" "player"
 "model" "progs/player.mdl"
-"frame" "11.000000"
+"frame" "9.000000"
 "mins" "-16.000000 -16.000000 -24.000000"
 "maxs" "16.000000 16.000000 32.000000"
 "size" "32.000000 32.000000 56.000000"
 "think" "player_run"
-"nextthink" "30.271353"
+"nextthink" "32.399269"
 "health" "100.000000"
 "weapon" "1.000000"
 "weaponmodel" "progs/v_shot.mdl"
@@ -221,7 +222,7 @@ a
 "items" "4353.000000"
 "takedamage" "2.000000"
 "view_ofs" "0.000000 0.000000 22.000000"
-"v_angle" "30.888062 113.060303 0.000000"
+"v_angle" "-5.015259 126.881104 0.000000"
 "netname" "player"
 "flags" "4616.000000"
 "colormap" "1.000000"
@@ -230,10 +231,10 @@ a
 "watertype" "-1.000000"
 "th_pain" "player_pain"
 "th_die" "PlayerDie"
-"walkframe" "6.000000"
-"attack_finished" "1.271274"
-"jump_flag" "-254.790863"
-"air_finished" "42.224358"
+"walkframe" "4.000000"
+"attack_finished" "1.299189"
+"jump_flag" "-102.438797"
+"air_finished" "44.324921"
 "dmg" "2.000000"
 }
 { // #2
@@ -261,9 +262,9 @@ a
 "owner" "2"
 }
 { // #6
-"absmin" "111.000000 -241.000000 23.000000"
-"absmax" "113.000000 -239.000000 25.000000"
-"origin" "112.000000 -240.000000 24.000000"
+"absmin" "41.000000 -230.000000 27.000000"
+"absmax" "43.000000 -228.000000 29.000000"
+"origin" "42.000000 -229.000000 28.000000"
 "classname" "info_player_start"
 }
 { // #7
