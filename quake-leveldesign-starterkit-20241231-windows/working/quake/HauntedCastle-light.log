@@ -43,8 +43,8 @@ WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
 
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
-	181 sky faces
-	9478 solid faces
+	184 sky faces
+	10270 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -57,7 +57,7 @@ Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing HauntedCastle.bsp as Quake BSP bsp29
-0.508s seconds elapsed
+0.875s seconds elapsed
 0 empty lightmaps
 
 
