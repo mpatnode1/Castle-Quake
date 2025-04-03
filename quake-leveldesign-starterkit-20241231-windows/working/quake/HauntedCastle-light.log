@@ -36,7 +36,7 @@ WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \q
 WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \w
 WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \d
 WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
-36 entities read, 14 are lights.
+163 entities read, 141 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -44,20 +44,21 @@ WARNING: HauntedCastle.bsp[line 3]: Unrecognised string escape - \D
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	184 sky faces
-	10228 solid faces
+	10217 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 14 initial lights
-SetupLights: 14 after surface lights
-SetupLights: 14 after jittering
-Final count: 14 lights, 0 suns in use.
+SetupLights: 141 initial lights
+SetupLights: 141 after surface lights
+SetupLights: 141 after jittering
+WARNING: couldn't nudge light out of solid at 1216 -572 92
+Final count: 141 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 49328
+lightmap size (total): 487704
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing HauntedCastle.bsp as Quake BSP bsp29
-0.816s seconds elapsed
+0.666s seconds elapsed
 0 empty lightmaps
 
 

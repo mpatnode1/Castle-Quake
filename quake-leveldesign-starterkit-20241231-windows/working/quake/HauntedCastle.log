@@ -52,9 +52,9 @@ fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE2.wad' not found
 fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE3.wad' not found
 fs::addArchive: WARNING: archive '..\extras\quake\wads\dkt\DktE4.wad' not found
 WARNING: HauntedCastle-compile.map[line 1430]: brush has multiple face contents (SOLID vs WATER), the former will be used.
-       71 entities
+      198 entities
        38 unique textures
-    2,279 texinfos
+    2,287 texinfos
     2,510 unique planes
 
 INFO: world extents calculated to 4104 units
@@ -112,7 +112,7 @@ INFO: calculating BSP for 1069 brushes with 6354 sides
     7,635 sides visible
     7,445 makefaces
     2,127 merged
-    3,068 subdivided
+    3,060 subdivided
     1,307 nodes pruned
     126 tiny portals
     1,550 player-occupiable leaves
@@ -126,12 +126,12 @@ INFO: calculating BSP for 1069 brushes with 6354 sides
     35 max tree height
     16 avg tree height
          4 edges degenerated
-     7,936 edges added by tjunctions
-     7,904 faces optimized through MWT
-    24,088 triangles computed from MWT
-     2,205 faces created via optimization of MWT triangles
-    23,184 edges
-    10,591 faces
+     7,922 edges added by tjunctions
+     7,896 faces optimized through MWT
+    24,058 triangles computed from MWT
+     2,202 faces created via optimization of MWT triangles
+    23,158 edges
+    10,580 faces
 Processing hull 1...
 Processing hull 2...
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 1107 >= 127)
@@ -141,20 +141,20 @@ Wrote HauntedCastle.bsp
 count   lump name    byte size 
       1 models               64
    2485 planes            49700
-  11916 vertexes         142992
+  11901 vertexes         142812
    3101 nodes             74424
-   1158 texinfos          46320
-  10591 faces            211820
+   1154 texinfos          46160
+  10580 faces            211600
    8435 clipnodes         67480
    1551 leafs             43428
-  12038 marksurfaces      24076
-  23185 edges             92740
-  45753 surfedges        183012
+  12023 marksurfaces      24046
+  23159 edges             92636
+  45701 surfedges        182804
      38 textures         749596
         lightdata             0
         visdata               0
-        entdata            3475
+        entdata           11180
 
-10.857s seconds elapsed
+6.384s seconds elapsed
 
 
