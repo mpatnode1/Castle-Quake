@@ -14,9 +14,9 @@ Calculating Full Vis:
 Expanding clusters...
 average leafs visible: 342
 c_noclip: 0
-c_chains: 110082210
-visdatasize:172283  compressed from 300700
+c_chains: 109935526
+visdatasize:172281  compressed from 300700
 Writing HauntedCastle.bsp as Quake BSP bsp29
-76.53s elapsed
+77.72s elapsed
 
 
